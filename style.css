@@ -1,0 +1,77 @@
+body{
+    background-color: #DFE8FF;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+h2, p{
+    margin: 0px;
+}
+.wave--svg{
+    width: 100%;
+}
+.Card{
+    width: 90%;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+}
+.Card img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+}
+p{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 20px;
+    font-size: 1.1rem;
+}
+.Card--Information__Plan{
+    background: #F8F9FE;
+    border-radius: 20px;
+    width: 90%;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10px;
+    flex-wrap: wrap;
+}
+.Card--Information__Music{
+    width: 60px !important;
+    height: 60px;
+}
+.Card--Information__Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 257px;
+}
+.Card--Information__Payment{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    border: none;
+    background: #382AE1;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0px 4px 7px 1px #6255f5;
+    margin-block: 15px;
+}
+.Card--Information__Cancel{
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    color: #565555;
+}
+.Card--Information{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}

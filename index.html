@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Element</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <svg class='wave--svg' xmlns="http://www.w3.org/2000/svg" width="375" height="194"><path fill="#D6E1FF" fill-rule="evenodd" d="M-131.808 155.366c97.026 51.512 204.233 51.512 321.62 0 117.388-51.512 223.27-51.512 317.648 0V0h-639.268v155.366z"/></svg>
+    </div>
+    <main class='Card'>
+        <img src='./img/illustration-hero.svg' alt='Woman'/>
+        <div class='Card--Information'>
+            <h1>Order Summary</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente porro repudiandae dicta fugit dolorum</p>
+            <div class='Card--Information__Plan'>
+                <div class='Card--Information__Container'>
+                    <img src='./img/icon-music.svg' alt='Music icon' class='Card--Information__Music'/>
+                    <div>
+                        <h2>Annual Plan</h2>
+                        <p>$59.99/year</p>
+                    </div>
+                </div>
+                <div>
+                    <a href='/'>Change</a>
+                </div>
+            </div>
+            <button class='Card--Information__Payment'>Proceed to Payment</button>
+            <a href='/' class='Card--Information__Cancel'>Cancel Order</a>
+        </div>
+    </main>
+</body>
+</html>
